@@ -14,3 +14,5 @@ cursor.execute('SHOW DATABASES')
 
 for x in cursor:
     print(x)
+
+conexão.close()

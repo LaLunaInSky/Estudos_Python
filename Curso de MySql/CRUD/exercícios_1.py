@@ -79,6 +79,7 @@ conexão.close()
 
 for key, value in resultado_final.items():
     print(f'\n{'-'*10} {key} {'-'*10}')
+    
     for c in range(0, len(value)):
         if len(value) == 1:
             print(value[c][0])

@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/galaxypc/Documentos/Estudo Python/Meus_Arquivos_de_Estudos/Curso de MySql/venv"
+set -gx VIRTUAL_ENV "/home/laluna/Documentos/Python/Estudos/Meus_Arquivos_de_Estudos/Curso de MySql/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

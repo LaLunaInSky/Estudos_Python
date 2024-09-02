@@ -39,10 +39,10 @@ deactivate nondestructive
 if [ "${OSTYPE:-}" = "cygwin" ] || [ "${OSTYPE:-}" = "msys" ] ; then
     # transform D:\path\to\venv to /d/path/to/venv on MSYS
     # and to /cygdrive/d/path/to/venv on Cygwin
-    export VIRTUAL_ENV=$(cygpath "/home/galaxypc/Documentos/Estudo Python/Meus_Arquivos_de_Estudos/Curso de MySql/venv")
+    export VIRTUAL_ENV=$(cygpath "/home/laluna/Documentos/Python/Estudos/Meus_Arquivos_de_Estudos/Curso de MySql/venv")
 else
     # use the path as-is
-    export VIRTUAL_ENV="/home/galaxypc/Documentos/Estudo Python/Meus_Arquivos_de_Estudos/Curso de MySql/venv"
+    export VIRTUAL_ENV="/home/laluna/Documentos/Python/Estudos/Meus_Arquivos_de_Estudos/Curso de MySql/venv"
 fi
 
 _OLD_VIRTUAL_PATH="$PATH"

@@ -9,7 +9,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV "/home/galaxypc/Documentos/Estudo Python/Meus_Arquivos_de_Estudos/Curso de MySql/venv"
+setenv VIRTUAL_ENV "/home/laluna/Documentos/Python/Estudos/Meus_Arquivos_de_Estudos/Curso de MySql/venv"
 
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/bin:$PATH"

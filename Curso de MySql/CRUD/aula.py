@@ -69,7 +69,7 @@ resultado_final['8º Exercício'] = cursor.fetchall()
 
 # 9º Execício - Quantos gafanhotos mulheres têm mais de 1.90m de altura
 cursor.execute(
-    'select * from `gafanhotos` where `gênero` = "F" and `altura` > "1.90" order by `nome`'
+    'select count(*) from `gafanhotos` where `gênero` = "F" and `altura` > "1.90"'
 )
 resultado_final['9º Exercício'] = cursor.fetchall()
 
@@ -80,4 +80,7 @@ conexão.close()
 for key, value in resultado_final.items():
     print(f'\n{'-'*10} {key} {'-'*10}')
     for c in range(0, len(value)):
-        print(value[c])
+        if len(value) == 1:
+            print(value[c][0])
+        else:
+            print(value[c])

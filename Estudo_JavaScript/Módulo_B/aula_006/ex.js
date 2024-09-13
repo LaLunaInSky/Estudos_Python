@@ -20,4 +20,11 @@ document.write(`
         ${frase.toUpperCase()} <br>
         ${frase.toLowerCase()}
     </p>
-`) //escrever no documento html o resultado da string, com uso de tags html
+`) //escreve no documento html o resultado da string, com uso de tags html
+
+/*
+Formatação Float:
+- n.toFixed(x)  //x é a quantidade de unidades depois do ponto. Porém retorna uma string como parâmetro final
+- n.replace('x', 'y')   //x é o o parâmetro da string que vai ser substituida por y, apenas para String.
+- n.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})   //resultado fica 'R$ 0,00', localiza o float para o modelo e moeda do pais escolhido como no exemplo acima
+*/

@@ -14,7 +14,7 @@ Dicas:
 */
 
 /*
-Data Types
+Data Types:
 Number
     Infinity
     NaN

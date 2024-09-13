@@ -13,12 +13,11 @@ Formatando Strings:
 - n.toLowerCase()   //transfroma a string toda em minúscula
 */
 
-window.alert(`
-    ${frase}
-
-    A frase tem ${frase.length} letras no total.
-    
-    ${frase.toUpperCase()}
-    
-    ${frase.toLowerCase()}
-`)
+document.write(`
+    <p>
+        ${frase} <br>
+        A frase tem ${frase.length} letras no total. <br>
+        ${frase.toUpperCase()} <br>
+        ${frase.toLowerCase()}
+    </p>
+`) //escrever no documento html o resultado da string, com uso de tags html

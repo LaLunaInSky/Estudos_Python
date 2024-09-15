@@ -1,0 +1,36 @@
+body{
+    background-color: lightsteelblue;
+    color: darkslategrey;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+input#number1{
+    text-align: center;
+    color: darkslategrey;
+    font-size: 25px;
+    height: 20pt;
+    width: 60pt;
+}
+
+input#number2{
+    text-align: center;
+    color: darkslategrey;
+    font-size: 25px;
+    height: 20pt;
+    width: 60pt;
+}
+
+input#buttonSomar{
+    margin-top: 20px;
+    color: darkslategrey;
+    height: 25pt;
+    line-height: 25pt;
+    font-size: 25px;
+}
+
+p#resultadoSoma{
+    color: indianred;
+    font-size: 30px;
+}

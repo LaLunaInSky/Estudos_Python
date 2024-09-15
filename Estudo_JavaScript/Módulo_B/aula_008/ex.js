@@ -46,5 +46,12 @@ Ordem de precedêmcia
 */
 
 /*
-ternário
+Ternário:
+?   //
+:   //
+teste ? true : false
+-três blocos
+
+Exemplo
+média >= 7.0 ? "Aprovado" : "Reprovado"
 */

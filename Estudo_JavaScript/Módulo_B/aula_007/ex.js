@@ -25,6 +25,7 @@ var d = 10 - a / 2
 var e = 6 * 2 / d
 var f = b % e + 4 / e
 
+//atribuição
 var n = 3
 n += 4
 n -= 5

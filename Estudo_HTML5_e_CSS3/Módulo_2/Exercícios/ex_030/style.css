@@ -10,22 +10,18 @@ h1, h2 {
     text-align: center;
 }
 
-li#left {
+p#left {
     text-align: left;
 }
 
-li#right {
+p#right {
     text-align: right;
 }
 
-li#center {
+p#center {
     text-align: center;
 }
 
-li#justify {
+p#justify {
     text-align: justify;
-}
-
-h3#justify {
-    text-align: center;
 }

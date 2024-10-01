@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+@font-face {
+    font-family: "idroid";
+    src: url(fonts/idroid.otf);
+}
+
 /* Color Theme Swatches in Hex */
 .color-theme_Screenshot-2024-09-29-at-12-30-25-desafio-android---desafio-android-1-hex { color: #1A5C38; }
 .color-theme_Screenshot-2024-09-29-at-12-30-25-desafio-android---desafio-android-2-hex { color: #3BD27F; }
@@ -53,6 +58,7 @@ nav > a {
 
 main {
     background-color: white;
+    border-radius: 0px 0px 10px 10px;
     margin: 0px 50px;
 }
 
@@ -62,9 +68,10 @@ section {
 
 article > h1 {
     margin: 0px;
+    font-family: "idroid", sans-serif;
     font-size: 2em;
     color: #1A5C38;
-    font-weight: bolder;
+    font-weight: normal;
     padding-top: 20px;
 }
 
@@ -74,9 +81,42 @@ p > a {
 }
 
 article > h2 {
-    background-image: linear-gradient(to right, #9df0c2, white 60%);
+    background-image: linear-gradient(to right, #a8f0c8, white 60%);
+    font-family: "idroid", sans-serif;
+    font-weight: normal;
+    font-size: 1.5em;
     color: #1A5C38;
-    padding: 0px 5px;
+    padding: 0px 8px;
+}
+
+#extra {
+    background-color: #a8f0c8;
+    border-radius: 10px;
+}
+
+#extra > p {
+    padding: 0px 12px;
+    text-align: justify;
+}
+
+p#penultimoParagrafo {
+    padding-bottom: 30px;
+}
+
+p#ultimoParagrafo {
+    padding-bottom: 45px;
+}
+
+#extra > h2 {
+    margin: 0px;
+    background-image: none;
+    background-color: #2FA866;
+    border-radius: 10px 10px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 10px 10px;
+    color: white;
 }
 
 article > p {

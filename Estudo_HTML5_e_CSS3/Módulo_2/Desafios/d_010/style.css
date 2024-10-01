@@ -15,7 +15,6 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
 }
 
 header {
@@ -49,11 +48,39 @@ nav > a {
     padding-right: 11px;
     font-weight: bold;
     font-size: 0.9em;
+    color: white;
 }
 
 main {
     background-color: white;
-    margin: auto;
+    margin: 0px 50px;
+}
+
+section {
+    margin: 0px 20px;
+}
+
+article > h1 {
+    margin: 0px;
+    font-size: 2em;
+    color: #1A5C38;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+
+p > a {
+    color: #1A5C38;
+    font-weight: bold;
+}
+
+article > h2 {
+    background-image: linear-gradient(to right, #9df0c2, white 60%);
+    color: #1A5C38;
+    padding: 0px 5px;
+}
+
+article > p {
+    text-align: justify;
 }
 
 footer {
@@ -66,4 +93,8 @@ footer {
 
 footer > p {
     margin: 0px;
+}
+
+strong > a {
+    color: white;
 }

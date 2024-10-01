@@ -23,7 +23,7 @@ a {
 }
 
 header {
-    background-image: linear-gradient(to bottom, #3BD27F, #1A5C38 80%);
+    background-image: linear-gradient(to bottom, #4CDE8D, #2B6E4A 80%);
     color: white;
     margin: 0px;
 }
@@ -81,7 +81,7 @@ p > a {
 }
 
 article > h2 {
-    background-image: linear-gradient(to right, #a8f0c8, white 60%);
+    background-image: linear-gradient(to right, #C5EBD6, white 90%);
     font-family: "idroid", sans-serif;
     font-weight: normal;
     font-size: 1.5em;
@@ -89,8 +89,17 @@ article > h2 {
     padding: 0px 8px;
 }
 
+#video {
+    background-color: #1A5C38;
+    margin: 0px 0px 15px;
+}
+
+iframe {
+    margin: auto;
+}
+
 #extra {
-    background-color: #a8f0c8;
+    background-color: #C5EBD6;
     border-radius: 10px;
 }
 
@@ -110,7 +119,7 @@ p#ultimoParagrafo {
 #extra > h2 {
     margin: 0px;
     background-image: none;
-    background-color: #2FA866;
+    background-color: #3BAC6E;
     border-radius: 10px 10px 0px 0px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1em;

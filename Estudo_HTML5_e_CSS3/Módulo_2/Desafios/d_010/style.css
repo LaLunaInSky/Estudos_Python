@@ -5,13 +5,6 @@
     src: url(fonts/idroid.otf);
 }
 
-/* Color Theme Swatches in Hex */
-.color-theme_Screenshot-2024-09-29-at-12-30-25-desafio-android---desafio-android-1-hex { color: #1A5C38; }
-.color-theme_Screenshot-2024-09-29-at-12-30-25-desafio-android---desafio-android-2-hex { color: #3BD27F; }
-.color-theme_Screenshot-2024-09-29-at-12-30-25-desafio-android---desafio-android-3-hex { color: #84E1AD; }
-.color-theme_Screenshot-2024-09-29-at-12-30-25-desafio-android---desafio-android-4-hex { color: #1A5C38; }
-.color-theme_Screenshot-2024-09-29-at-12-30-25-desafio-android---desafio-android-5-hex { color: #2FA866; }
-
 body {
     margin: 0px;
     background-color: #84E1AD;
@@ -23,9 +16,10 @@ a {
 }
 
 header {
-    background-image: linear-gradient(to bottom, #4CDE8D, #2B6E4A 80%);
+    background-image: linear-gradient(to bottom, #3BD480, #2B6E4A 80%);
     color: white;
     margin: 0px;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.192);
 }
 
 header > h1 {
@@ -60,6 +54,7 @@ main {
     background-color: white;
     border-radius: 0px 0px 10px 10px;
     margin: 0px 50px;
+    box-shadow: 2px 2.5px 4px 5px rgba(0, 0, 0, 0.096);
 }
 
 section {
@@ -101,6 +96,7 @@ iframe {
 #extra {
     background-color: #C5EBD6;
     border-radius: 10px;
+    box-shadow: 3px 3px 4px 2px rgba(0, 0, 0, 0.11);
 }
 
 #extra > p {
@@ -113,7 +109,8 @@ p#penultimoParagrafo {
 }
 
 p#ultimoParagrafo {
-    padding-bottom: 45px;
+    padding-top: 8px;
+    padding-bottom: 35px;
 }
 
 #extra > h2 {

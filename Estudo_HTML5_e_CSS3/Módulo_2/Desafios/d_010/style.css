@@ -56,7 +56,7 @@ nav > a:hover {
     background-color: #3BAC6E;
     padding: 8px;
     border-radius: 5px;
-    text-decoration: underline;
+    font-weight: bolder;
 }
 
 main {
@@ -83,6 +83,14 @@ article > h1 {
 p > a {
     color: #1A5C38;
     font-weight: bold;
+}
+
+p > a:hover.linkPessoal {
+    background-color: #1A5C38;
+    padding: 3px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: underline;
 }
 
 p > a:hover {

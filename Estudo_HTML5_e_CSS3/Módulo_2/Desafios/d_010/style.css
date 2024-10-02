@@ -52,6 +52,13 @@ nav > a {
     color: white;
 }
 
+nav > a:hover {
+    background-color: #3BAC6E;
+    padding: 8px;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
 main {
     max-width: 840px;
     background-color: white;
@@ -76,6 +83,10 @@ article > h1 {
 p > a {
     color: #1A5C38;
     font-weight: bold;
+}
+
+p > a:hover {
+    text-decoration: underline;
 }
 
 article > h2 {
@@ -143,3 +154,7 @@ footer > p {
 strong > a {
     color: white;
 }
+
+strong > a:hover {
+    text-decoration: underline;
+} 

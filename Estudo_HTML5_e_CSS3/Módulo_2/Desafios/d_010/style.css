@@ -70,7 +70,7 @@ nav > a {
 }
 
 nav > a:hover {
-    background-color: #3BAC6E;
+    background-color: var(--cor3);
     border-radius: 5px;
     font-size: 1em;
 }
@@ -117,6 +117,7 @@ article > h2 {
     font-weight: normal;
     font-size: 1.5em;
     color: var(--cor4);
+}
 
 article > p {
     text-align: justify;

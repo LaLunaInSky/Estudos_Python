@@ -56,30 +56,41 @@ img#bugdroid {
 /*Header*/
 header {
     background-image: linear-gradient(
-        to bottom, #3BD480, var(--cor5) 95%
+        to bottom, var(--cor3), var(--cor5) 80%
     );
     color: white;
     box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.192);
 }
 
 header > h1 {
+    padding: 25px;
     text-align: center;
     font: normal normal 48px var(--fonte-bebas);
 }
 
 header > h2 {
+    max-width: 480px;
+    margin: auto;
+    padding-bottom: 20px;
     text-align: center;
     font: normal 1.2em var(--fonte-padrao);
 }
 
+nav {
+    padding: 11px;
+}
+
 nav > a {
+    padding-right: 10px;
     font: bold 0.95em var(--fonte-padrao);
     color: white;
 }
 
 nav > a:hover {
+    padding: 5px 8px;
     background-color: var(--cor3);
-    border-radius: 5px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.138);
     font-size: 1em;
 }
 
@@ -105,8 +116,10 @@ p > a {
 
 p > a:hover {
     background-color: var(--cor4);
+    padding: 2px 4px;
     color: white;
-    border-radius: 5px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.13);
     text-decoration: underline;
 }
 
@@ -120,12 +133,14 @@ article > h1 {
 }
 
 article > h2 {
-    background-image: linear-gradient(to right, var(--cor0), white 90%);
+    background-image: linear-gradient(to right, var(--cor0), white 80%);
+    padding: 1px 8px;
     font: normal 1.5em var(--fonte-android);
     color: var(--cor4);
 }
 
 article > p {
+    padding: 20px 0px;
     text-align: justify;
     text-indent: 25px;
 }
@@ -145,17 +160,21 @@ aside {
 aside > h3 {
     background-color: var(--cor3);
     border-radius: 10px 10px 0px 0px;
+    padding: 8px;
     font: bold 1.1em var(--fonte-padrao);
     color: white;
 }
 
 aside > p {
+    padding: 10px 10px;
     text-align: justify;
     text-indent: 25px;
 }
 
 /*Footer*/
 footer {
+    margin-top: 20px;
+    padding: 10px   ;
     background-color: var(--cor5);
     text-align: center;
     color: white;

@@ -43,6 +43,16 @@ a {
     text-decoration: none;
 }
 
+img {
+    width: 100%;
+}
+
+img#bugdroid {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
 /*Header*/
 header {
     background-image: linear-gradient(
@@ -75,11 +85,17 @@ nav > a:hover {
 
 /*Main*/
 main {
-    max-width: 800px;
-    min-width: 400px;
+    max-width: 1000px;
+    min-width: 300px;
+    padding: 20px;
+    margin: auto;
     background-color: white;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 2px 2.5px 4px 5px rgba(0, 0, 0, 0.096);
+}
+
+img {
+    width: 100%;
 }
 
 p > a {
@@ -114,8 +130,9 @@ article > p {
     text-indent: 25px;
 }
 
-section > iframe {
-    background-color: var(--cor5);
+article > iframe {
+    display: block;
+    margin: auto;
 
 }
 

@@ -2,21 +2,44 @@
 
 @font-face {
     font-family: "idroid";
-    src: url(fonts/idroid.otf);
+    src: url(fonts/idroid.otf) format('opentype');
+    font-weight: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(fonts/BebasNeue-Regular.ttf) format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
 
+:root {
+    /*Paleta de cores do Projeto*/
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+
+    /*Fontes do Projeto*/
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-bebas: 'Bebas Neue', sans-serif;
+    --fonte-android: "idroid", sans-serif;
+}
+
+/*Geral*/
 body {
     margin: 0px;
-    background-color: #84E1AD;
-    font-family: "Bebas Neue", sans-serif;
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
 }
 
 a {
     text-decoration: none;
 }
 
+/*Header*/
 header {
     background-image: linear-gradient(to bottom, #3BD480, #2B6E4A 80%);
     color: white;
@@ -28,7 +51,8 @@ header > h1 {
     margin: 0px;
     text-align: center;
     padding: 25px;
-    font-size: 2.4em;
+    font-family: var(--fonte-bebas);
+    font-size: 48px;
     font-weight: bolder;
 }
 
@@ -59,6 +83,7 @@ nav > a:hover {
     font-size: 1em;
 }
 
+/*Main*/
 main {
     max-width: 840px;
     background-color: white;
@@ -72,20 +97,6 @@ section {
 }
 
 section > p {
-    text-align: justify;
-    text-indent: 25px;
-}
-
-article > h1 {
-    margin: 0px;
-    font-family: "idroid", sans-serif;
-    font-size: 2em;
-    color: #1A5C38;
-    font-weight: normal;
-    padding-top: 20px;
-}
-
-article > p {
     text-align: justify;
     text-indent: 25px;
 }
@@ -107,13 +118,33 @@ p > strong {
     color: #1A5C38
 }
 
+
+
+article > h1 {
+    margin: 0px;
+    font-family: var(--fonte-android);
+    font-size: 2em;
+    color: #1A5C38;
+    font-weight: normal;
+    padding-top: 20px;
+}
+
 article > h2 {
     background-image: linear-gradient(to right, #C5EBD6, white 90%);
-    font-family: "idroid", sans-serif;
+    font-family: var(--fonte-android);
     font-weight: normal;
     font-size: 1.5em;
     color: #1A5C38;
     padding: 0px 8px;
+}
+
+article > p {
+    text-align: justify;
+    text-indent: 25px;
+}
+
+article > p {
+    text-align: justify;
 }
 
 #video {
@@ -153,10 +184,7 @@ p#ultimoParagrafo {
     color: white;
 }
 
-article > p {
-    text-align: justify;
-}
-
+/*Footer*/
 footer {
     margin: 0px;
     background-color: #1A5C38;

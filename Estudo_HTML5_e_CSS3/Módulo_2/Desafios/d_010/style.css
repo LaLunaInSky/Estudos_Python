@@ -124,6 +124,7 @@ p > a:hover {
 }
 
 p > strong {
+    cursor: default;
     color: var(--cor4);
 }
 
@@ -173,6 +174,10 @@ aside > p {
 
 aside > ul {
     padding-left: 30px;
+}
+
+ul > li {
+    cursor: default;
 }
 
 /*Footer*/

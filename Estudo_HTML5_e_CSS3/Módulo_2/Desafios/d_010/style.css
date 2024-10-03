@@ -171,6 +171,10 @@ aside > p {
     text-indent: 25px;
 }
 
+aside > ul {
+    padding-left: 30px;
+}
+
 /*Footer*/
 footer {
     margin-top: 20px;

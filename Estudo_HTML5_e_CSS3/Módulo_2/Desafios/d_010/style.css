@@ -59,39 +59,52 @@ header {
         to bottom, var(--cor3), var(--cor5) 80%
     );
     color: white;
-    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.192);
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.192);
 }
 
 header > h1 {
-    padding: 25px;
+    padding: 30px;
     text-align: center;
-    font: normal normal 48px var(--fonte-bebas);
+    font: normal normal 3em var(--fonte-bebas);
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.219);
 }
 
 header > h2 {
     max-width: 480px;
     margin: auto;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.219);
     text-align: center;
     font: normal 1.2em var(--fonte-padrao);
 }
 
 nav {
-    padding: 11px;
+    padding: 11px 15px;
+}
+
+nav > span {
+    cursor: default;
+    padding: 0px 7px;
+    font-size: 1.1em;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.158);
+    font-weight: bold;
 }
 
 nav > a {
-    padding-right: 10px;
-    font: bold 0.95em var(--fonte-padrao);
+    font: normal 1em var(--fonte-padrao);
     color: white;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.247);
 }
 
 nav > a:hover {
     padding: 5px 8px;
-    background-color: var(--cor3);
+    background-color: var(--cor1);
+    color: var(--cor5);
+    font-weight: bolder;
     border-radius: 7px;
-    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.138);
-    font-size: 1em;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.329);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.123);
+    font-size: 1.05em;
 }
 
 /*Main*/
@@ -102,7 +115,7 @@ main {
     margin: auto;
     background-color: white;
     border-radius: 0px 0px 10px 10px;
-    box-shadow: 2px 2.5px 4px 5px rgba(0, 0, 0, 0.096);
+    box-shadow: 0px 4px 5px 3px rgba(0, 0, 0, 0.233);
 }
 
 img {
@@ -155,7 +168,7 @@ article > iframe {
 aside {
     background-color: var(--cor0);
     border-radius: 10px;
-    box-shadow: 3px 3px 4px 2px rgba(0, 0, 0, 0.123);
+    box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.164);
 }
 
 aside > h3 {

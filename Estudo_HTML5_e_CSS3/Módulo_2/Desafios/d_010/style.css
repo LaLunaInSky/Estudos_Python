@@ -48,7 +48,7 @@ img {
 }
 
 img#bugdroid {
-    width: 50%;
+    max-width: 340px;
     display: block;
     margin: auto;
 }
@@ -127,17 +127,17 @@ img {
 p > a {
     color: var(--cor4);
     font-weight: bold;
-    transition-duration: 0.2s;
+    transition-duration: 0.34s;
 }
 
 p > a:hover {
     background-color: var(--cor4);
-    padding: 2px 4px;
+    padding: 3px;
     color: white;
     border-radius: 3px;
     box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.13);
     text-decoration: underline;
-    transition-duration: 0.2s;
+    transition-duration: 0.34s;
 }
 
 p > strong {
@@ -158,6 +158,7 @@ article > h2 {
 }
 
 article > p {
+    line-height: 1.6em;
     padding: 20px 0px;
     text-align: justify;
     text-indent: 25px;
@@ -187,6 +188,10 @@ aside > p {
     padding: 10px 10px;
     text-align: justify;
     text-indent: 25px;
+}
+
+aside a {
+    transition-duration: 0.34s;
 }
 
 aside > ul {

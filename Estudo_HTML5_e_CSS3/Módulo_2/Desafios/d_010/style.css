@@ -147,11 +147,11 @@ p > strong {
 
 article > h1 {
     font: normal 2em var(--fonte-android);
-    color: var(--cor4);
+    color: var(--cor5);
 }
 
 article > h2 {
-    background-image: linear-gradient(to right, var(--cor0), white 80%);
+    background-image: linear-gradient(to right, var(--cor0), transparent 80%);
     padding: 1px 8px;
     font: normal 1.5em var(--fonte-android);
     color: var(--cor4);
@@ -199,6 +199,8 @@ aside a {
 
 aside > ul {
     padding-left: 30px;
+    columns: 2;
+    line-height: 1.4em;
 }
 
 ul > li {
@@ -208,7 +210,8 @@ ul > li {
 /*Footer*/
 footer {
     margin-top: 20px;
-    padding: 10px   ;
+    padding: 10px;
+    font-size: 0.95em;
     background-color: var(--cor5);
     text-align: center;
     color: white;

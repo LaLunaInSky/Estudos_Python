@@ -198,9 +198,11 @@ aside a {
 }
 
 aside > ul {
-    padding-left: 30px;
+    padding-left: 26px;
     columns: 2;
-    line-height: 1.4em;
+    list-style-type: '\002714  ';
+    line-height: 1.5em;
+    margin: 5px 0px;
 }
 
 ul > li {

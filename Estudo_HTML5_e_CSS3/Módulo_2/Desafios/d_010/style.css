@@ -158,7 +158,8 @@ article > h2 {
 }
 
 article > p {
-    line-height: 1.6em;
+    line-height: 1.45em;
+    font-size: 1.06em;
     padding: 20px 0px;
     text-align: justify;
     text-indent: 25px;
@@ -179,12 +180,14 @@ aside {
 aside > h3 {
     background-color: var(--cor3);
     border-radius: 10px 10px 0px 0px;
-    padding: 8px;
+    padding: 8.6px;
     font: bold 1.1em var(--fonte-padrao);
     color: white;
 }
 
 aside > p {
+    line-height: 1.45em;
+    font-size: 1.06em;
     padding: 10px 10px;
     text-align: justify;
     text-indent: 25px;

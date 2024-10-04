@@ -125,7 +125,7 @@ img {
 }
 
 p > a {
-    color: var(--cor4);
+    color: var(--cor5);
     font-weight: bold;
     transition-duration: 0.34s;
 }

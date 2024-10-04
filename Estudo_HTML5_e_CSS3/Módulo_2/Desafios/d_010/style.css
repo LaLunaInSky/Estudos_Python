@@ -165,7 +165,15 @@ article > p {
     text-indent: 25px;
 }
 
-article > iframe {
+article > section {
+    background-color: var(--cor5);
+    max-width: 1040px;
+    padding: 20px 0px;
+    margin: 0px -20px 20px;
+}
+
+section > iframe {
+    box-shadow: 0px 3px 10px 4px rgba(0, 0, 0, 0.301);
     display: block;
     margin: auto;
 
@@ -198,7 +206,7 @@ aside a {
 }
 
 aside > ul {
-    padding-left: 26px;
+    padding-left: 30px;
     columns: 2;
     list-style-type: '\002714  ';
     line-height: 1.5em;

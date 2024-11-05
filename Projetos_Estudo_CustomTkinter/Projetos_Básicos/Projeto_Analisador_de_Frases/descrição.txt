@@ -1,0 +1,2 @@
+Um programa que lê alguma informação passada pelo teclado e mostra  na tela o seu tipo primitivo e todas as informações 
+possiveis sobre a informação.

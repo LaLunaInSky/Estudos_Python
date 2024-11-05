@@ -1,0 +1,1 @@
+from .janela_retorno_analise_frase import JanelaRetornoAnaliseFrase

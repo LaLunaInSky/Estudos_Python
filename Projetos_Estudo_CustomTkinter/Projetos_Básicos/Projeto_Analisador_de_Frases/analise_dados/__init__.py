@@ -1,0 +1,1 @@
+from .analisador_dos_dados import AnalisadorFrase

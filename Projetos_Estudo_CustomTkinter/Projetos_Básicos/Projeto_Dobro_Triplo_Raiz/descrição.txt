@@ -1,0 +1,1 @@
+Um algoritmo que lê um número e mostra o seu dobro, triplo e sua raiz quadrada

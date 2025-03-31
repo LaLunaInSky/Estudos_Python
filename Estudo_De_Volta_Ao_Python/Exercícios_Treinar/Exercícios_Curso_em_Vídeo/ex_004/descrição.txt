@@ -1,0 +1,10 @@
+Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informação possíveis sobre ela.
+
+* Sua classe
+* Se possui espaços
+* Se é um número
+* Se é alfabético
+* Se é alfanumérico
+* Se está em maiúscula
+* Se está em minúscula
+* Se está capitalizada

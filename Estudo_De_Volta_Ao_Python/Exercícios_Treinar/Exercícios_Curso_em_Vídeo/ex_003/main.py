@@ -14,8 +14,8 @@ def main():
 
     number_1 = getUserInput(1)
     number_2 = getUserInput(2)
-    resultadoSoma = soma(number_1, number_2)
+    resultado_soma = soma(number_1, number_2)
 
-    print(f"A soma de {number_1} + {number_2} é igual a: {resultadoSoma}.")
+    print(f"A soma de {number_1} + {number_2} é igual a: {resultado_soma}.")
 
 main()

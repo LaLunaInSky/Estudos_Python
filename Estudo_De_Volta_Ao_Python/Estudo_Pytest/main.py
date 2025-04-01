@@ -1,16 +1,19 @@
 from os import system
 
-def add2(x: int) -> int:
-    return x + 2
+def calcularDiviãoPorDois(x: int) -> int:
+    return int(x / 2)
+
+
+def obterInformações() -> dict:
+    return {
+        "is_ok": True,
+        "name": "LaLunaInSky",
+        "age": 24
+    }
 
 
 def main() -> None:
     system("clear")
-
-    número_x: int = 3
-    soma_1: int = add2(número_x)
-
-    print(f"{número_x} + 2 = {soma_1}")
 
 
 main()

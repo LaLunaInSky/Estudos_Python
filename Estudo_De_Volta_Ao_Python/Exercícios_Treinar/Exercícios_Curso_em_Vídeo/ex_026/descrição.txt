@@ -1,0 +1,5 @@
+Faça um programa que leia uma frase pelo teclado mostre:
+
+- Quantas vezes aparece a letra "A".
+- Em que posição o "A" aparece pela primeira vez.
+- Em que posição o "A" aparece pela última vez.

@@ -5,7 +5,7 @@ def obterNúmeroDoUsuário() -> int:
     while True:
         print("Tente adivinhar o número que estou pensando, só vale 0 à 5...")
 
-        número_do_usuário = int(input("Qual número você acha que escolhi? "))
+        número_do_usuário: int = int(input("Qual número você acha que escolhi? "))
 
         if 5 >= número_do_usuário >= 0:
             return número_do_usuário
@@ -14,12 +14,12 @@ def obterNúmeroDoUsuário() -> int:
 
 
 def obterNúmeroDoComputador() -> int:
-    número_do_computador = randint(0, 5)
+    número_do_computador: int = randint(0, 5)
     return número_do_computador
 
 
 def mostrarResultado(número_do_usuário: int) -> None:    
-    número_do_computador = obterNúmeroDoComputador()
+    número_do_computador: int = obterNúmeroDoComputador()
     
     if número_do_computador == número_do_usuário:
         print("\nVocê GANHOU!")
@@ -32,7 +32,7 @@ def mostrarResultado(número_do_usuário: int) -> None:
 def main() -> None:
     system("clear")
 
-    número_do_usuário = obterNúmeroDoUsuário()
+    número_do_usuário: int = obterNúmeroDoUsuário()
 
     mostrarResultado(número_do_usuário)
 

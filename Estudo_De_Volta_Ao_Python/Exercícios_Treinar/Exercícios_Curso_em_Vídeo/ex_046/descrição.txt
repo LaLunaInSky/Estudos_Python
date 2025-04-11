@@ -1,0 +1,1 @@
+Faça um programa que mostre na tela um contagem regressiva para o estoura de fogos de artifícios, indo de 10 até 0, com uma pausa de 1 segundo entre eles.

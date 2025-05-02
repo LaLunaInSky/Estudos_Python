@@ -63,6 +63,7 @@ def mostrarMenuComAsOpções(números_informados: list) -> None:
 
         elif opção_escolhida_pelo_usuário == 5:
             break
+        
         else:
             system("clear")
 

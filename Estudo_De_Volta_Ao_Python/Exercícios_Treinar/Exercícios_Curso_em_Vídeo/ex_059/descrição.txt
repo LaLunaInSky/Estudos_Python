@@ -1,0 +1,7 @@
+Crie um programa que leia dois números inteiros e mostre um menu como o do exemplo abaixo:
+    [ 1 ] Somar
+    [ 2 ] Multiplicar
+    [ 3 ] Qual é o Maior
+    [ 4 ] Informar Novos Números
+    [ 5 ] Fechar o programa
+Seu programa deverá realizar a operação solicitada em cada caso.

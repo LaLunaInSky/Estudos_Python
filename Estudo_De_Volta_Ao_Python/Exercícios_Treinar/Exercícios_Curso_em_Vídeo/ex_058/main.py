@@ -29,7 +29,6 @@ def obterPalpitesDoUsuário(número_do_computador: int) -> None:
                 quantidade_de_tentativas += 1
 
 
-
 def main() -> None:
     system("clear")
 

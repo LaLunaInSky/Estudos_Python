@@ -1,0 +1,5 @@
+Crie um programa que leia a idade e o gênero de várias pessoas. A cada pessoa cadastrada, o programa deverá perguntar se o usuário quer ou não adicionar mais uma pessoa. No final mostre:
+
+1º - Quantas pessoas tem mais de 18 anos.
+2º - Quantos homens foram cadastrados.
+3º - Quantas mulheres tem menos 20 anos.

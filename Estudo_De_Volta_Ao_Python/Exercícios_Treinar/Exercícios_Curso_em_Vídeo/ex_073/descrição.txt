@@ -1,0 +1,6 @@
+Crie uma tupla preenchida com os 20 primeiros colocados da Última Tabela do Campeonato Brasileiro de Futebol, na ordem de colocação. Depois mostre:
+
+1º - Os 5 primeiros colocados
+2º - Os últimos 4 colocados.
+3º - Times em ordem alfabética.
+4º - Em que posição está o time da Chapecoense.

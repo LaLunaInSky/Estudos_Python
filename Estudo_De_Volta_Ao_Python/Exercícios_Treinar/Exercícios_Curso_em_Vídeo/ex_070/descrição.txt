@@ -1,0 +1,5 @@
+Cria um programa que elia o nome e o preço de vários produtos. O programa deverá perguntar se o usuário vai adicionar mais um produto. No final, mostre
+
+1º - Qual é o total gasto na compra;
+2º - Quantos produtos custam mais de R$1000;
+3º - Qual é o nome e valor do produto mais barato.

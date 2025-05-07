@@ -1,0 +1,1 @@
+Crie um programa que vai gerar cinco múmeros aleatórios de 1 a 10 e os coloque em uma tupla. Depois disso, mostre a listagem de número gerados e também indique o menor e o maior valor que estão na tupla.

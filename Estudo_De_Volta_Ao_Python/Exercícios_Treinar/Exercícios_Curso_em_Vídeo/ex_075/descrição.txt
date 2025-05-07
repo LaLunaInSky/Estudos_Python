@@ -1,0 +1,5 @@
+Desenvolva um programa que leia quatro valores pelo teclado e guarde-os em uma tupla. No final, mostre:
+
+1º - Quantas vezes apareceu o valor 9.
+2º - Em que posição foi digitado o primeiro valor 3.
+3º - Quais foram os números pares digitados.

@@ -1,0 +1,4 @@
+Crie um programa que tenh uma tupla com várias palavras (não usar acentos). Depois disss, você deve mostrrar, prar cada palavra, quais são as suas vogais.
+
+Palavras:
+aprender, programar, linguagem, python, curso, gratis, estudar, praticar, trabalhar, mercado, programador, futuro.

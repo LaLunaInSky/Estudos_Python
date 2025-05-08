@@ -1,0 +1,1 @@
+Crie um programa onde o usupário possa digitar vários valores numéricos e cadastre-os em uma lista. Caso o número digitado já exista na lista, ele não será adicionado novamente. No final, será exibido todos os valores únicos adicionados na lista, em ordem crescente.

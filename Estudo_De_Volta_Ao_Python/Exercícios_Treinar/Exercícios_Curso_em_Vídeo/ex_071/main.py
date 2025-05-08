@@ -11,7 +11,7 @@ def mostrarMensagemDeDespedida() -> None:
     
 
 def obterNúmeroInteiroDoUsuário() -> int:
-    número_inteiro_digitado_pelo_usuário: int = int(input("Qual valor vc quer sacar?  R$"))
+    número_inteiro_digitado_pelo_usuário: int = int(input("Qual valor você quer sacar?  R$"))
 
     return número_inteiro_digitado_pelo_usuário
 

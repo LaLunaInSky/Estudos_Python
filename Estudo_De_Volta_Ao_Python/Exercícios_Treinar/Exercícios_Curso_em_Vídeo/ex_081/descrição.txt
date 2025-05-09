@@ -1,0 +1,5 @@
+Crie um programa que vai let vários números inteiros e coloque-os em uma lista. Depois disso, mostre:
+
+1º - Quantos números foram digitados.
+2º - A Lista de valores, ordenada de forma decrescente.
+3º - Se o valor 5 foi digitado e está ou não na lista.

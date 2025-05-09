@@ -1,0 +1,1 @@
+Crie um programa que vai ler vários números inteiros e coloca-los em uma lista. Depois, crie duas listas extras que vão conter apenas os valores pares e os valor ímpares da primeira lista, respectivamente. Ao final, mostre o conteúdo das três listas geradas.
